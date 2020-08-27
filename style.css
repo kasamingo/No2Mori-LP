@@ -1,0 +1,526 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+/*-----------------------------------ヘッダーのCSS----------------------------*/
+header{
+    height: 6vw;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.topBtn{
+    width: 18.5vw;
+    height: 4vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6vw;
+    font-family: serif;
+    margin-top: 1vw;
+    outline: none;
+    background-color: #af1414;
+}
+.logo{
+    width: 5vw;
+    margin-left: 13.9vw;
+    margin-top: 0.6vw;
+
+}
+header p{
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+    font-family: serif;
+    margin-left: 8vw;
+    margin-top: 10%;
+}
+
+/*-----------------------------------ヘッダーのCSS----------------------------*/
+
+.top-wrapper{
+    text-align: center;
+    background-color: black;
+}
+.topImg{
+    width: 70vw;
+    margin-bottom: 5vw;
+}
+
+.world-w{
+    text-align: center;
+    margin-top: 2vw;
+}
+.world{
+    width: 70vw;
+}
+.start{
+    width: 70vw;
+}
+.jef{
+    width: 70vw;
+}
+.bir{
+    width: 70vw;
+}
+.yanai{
+    width: 70vw;
+}
+.bel{
+    width: 70vw;
+}
+.mori{
+    width: 70vw;
+}
+.bfe{
+    width: 70vw;
+}
+
+
+
+.content-wrapper{
+    height: 470vw;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.background-w{
+    text-align: center;
+}
+.background{
+    margin-top: 2vw;
+    width: 70vw;
+}
+
+
+
+.img50{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.textImg{
+    width: 50vw;
+    margin-right: 1vw;
+}
+.hiruzu{
+    width: 19vw;
+}
+
+
+
+
+.cta-w{
+    position: relative;
+    text-align: center;
+    margin-top: 2vw;
+}
+.cta{
+    width: 70vw;
+}
+.ctaBtn {
+    position: absolute;
+    top: 63%;
+    left: 55%;
+    width: 17vw;
+    height: 4vw;
+    background-color: #b42222;
+    color: white;
+    outline: none;
+    font-size: 1.6vw;
+}
+
+
+
+.six{
+    margin-top: 2vw;
+    text-align: center;
+}
+.sixTop{
+    width: 70vw;
+    margin-bottom: 1vw;
+}
+.six img{
+    width: 70vw;
+}
+.grid-w{
+    width: 70vw;margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8vw;
+}
+.grid-w img{
+    width: 22.8vw;
+}
+
+
+
+.trouble-w{
+    text-align: center;
+    margin-top: 2vw;
+}
+.fire{
+    width: 70vw;
+}
+.plo1{
+    width: 70vw;
+}
+.plo2{
+    width: 70vw;
+}
+
+
+
+
+
+
+.reason-w{
+    text-align: center;
+    margin-top: 2vw;
+}
+.free{
+    width: 70vw;
+}
+.reacon{
+    width: 70vw;
+}
+.jentle{
+    width: 70vw;
+    vertical-align: bottom;
+}
+.mlm{
+    width: 70vw;
+}
+
+
+
+
+
+.run-w{
+    margin-top: 4vw;
+    text-align: -webkit-center;
+}
+.run-w h2{
+    width: 15vw;
+    color: white;
+    font-size: 2.5vw;
+    font-family: serif;
+    margin-bottom: 1vw;
+    border-bottom: 3px solid goldenrod;
+}
+table{
+    background-color: #242222;
+    font-weight: lighter;
+    width: 70vw;
+    color: rgb(221, 218, 218);
+    font-size: 1vw;
+}
+tbody{
+    width: 100%;
+}
+.t-left{
+    width: 20%;
+}
+td{
+    padding: 2vw;
+    font-size: 1.7vw;
+    font-family: serif;
+}
+.int-w{
+    margin-top: 2vw;
+    text-align: center;
+}
+.intro{
+    margin: auto;
+    width: 70vw;
+}
+
+
+.re-w{
+    margin-top: 2vw;
+    text-align: center;
+    
+}
+.re-mori{
+    width: 70vw;
+    margin-bottom: 1vw;
+}
+.rebuy{
+    width: 70vw;
+}
+
+
+.final-w{
+    
+    position: relative;
+}
+.final-con{
+    display: flex;
+    justify-content: center;
+}
+.final{
+    width: 52vw;
+    height: 30vw;
+    margin-right: 1vw;
+}
+.night{
+    width: 17vw;
+}
+.finalBtn {
+    position: absolute;
+    top: 69%;
+    left: 29%;
+    background-color: red;
+    width: 23vw;
+    height: 7vw;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.copy-w{
+    margin-top: 3vw;
+    text-align: center;
+}
+.copy{
+    width: 70vw;
+}
+
+
+
+
+/*関数*/
+.fadein {
+    opacity : 0;
+    transform : translate(50px, 0px);
+    transition:all 0.5s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_2 {
+    opacity : 0;
+    transform : translate(50px, 0);
+    transition:all 0.5s;
+}
+.fadein_2.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+/*関数*/
+
+
+
+
+/*---------------------------------------------レスポンシブ*/
+@media screen and (max-width:480px){
+    header{
+        height: 11vw;
+    }
+    .logo {
+        width: 9vw;
+        margin-left: 1vw;
+        margin-top: 0.8vw;
+    }
+    header p {
+        font-size: 13px;
+        margin: 0;
+        margin-top: 19%;
+    }
+    .topBtn {
+        width: 25.5vw;
+        height: 8vw;
+        font-size: 12px;
+        margin-top: 1.3vw;
+        margin-left: 6vw;
+    }
+    .topImg {
+        width: 94vw;
+        margin-bottom: 8vw;
+    }
+    .world {
+        width: 94vw;
+    }
+    .jef {
+        margin-top: 3vw;
+        width: 94vw;
+
+    }
+    .yanai {
+        margin-top: 6vw;
+        width: 94vw;
+    }
+    .bir {
+        margin-top: 6vw;
+        width: 94vw;
+    }
+    .mori {
+        margin-top: 6vw;
+        width: 94vw;
+    }
+    .bfe {
+        margin-top: 6vw;
+        width: 94vw;
+        margin-bottom: 2vw;
+    }
+    .bel {
+        margin-top: 6vw;
+        width: 94vw;
+    }
+    .six img {
+        width: 94vw;
+    }
+
+    .grid-w {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8vw;
+    }
+    .grid-w img{
+        width: 44vw;
+        margin: auto;
+    }
+    .fire {
+        width: 94vw;
+    }
+    .plo1 {
+        width: 94vw;
+    }
+    .plo2 {
+        width: 94vw;
+    }
+
+    .cta {
+        width: 94vw;
+    }
+    .ctaBtn {
+        top: 60%;
+        left: 53%;
+        width: 32vw;
+        height: 6vw;
+        font-size: 11px;
+    }
+    .free {
+        width: 94vw;
+    }
+    .reacon {
+        width: 94vw;
+    }
+    .jentle {
+        width: 94vw;
+        vertical-align: bottom;
+    }
+    .mlm {
+        width: 94vw;
+    }
+    .intro {
+        margin: auto;
+        width: 94vw;
+    }
+    .background {
+        width: 94vw;
+    }
+
+    .img50 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+    }
+    .textImg {
+        width: 94vw;
+        margin-right: 1vw;
+        margin-left: 3vw;
+    }
+    .hiruzu {
+        display: none;
+    }
+    .run-w h2 {
+        width: 26vw;
+        color: white;
+        font-size: 16px;
+        font-family: serif;
+        margin-bottom: 2vw;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    table {
+        background-color: #242222;
+        font-weight: lighter;
+        width: 94vw;
+        color: rgb(221, 218, 218);
+        /* font-size: 4px; */
+    }
+    td {
+        padding: 2vw;
+        font-size: 11px;
+    }
+    .re-mori {
+        width: 94vw;
+        margin-bottom: 1vw;
+    }
+    .rebuy {
+        width: 94vw;
+    }
+    
+    .final-con {
+        display: flex;
+        justify-content: space-between;
+    }
+    .final {
+        width: 94vw;
+        height: auto;
+        margin-left: 3vw;
+        margin-right: 1vw;
+    }
+    .night{
+        display: none;
+    }
+    .finalBtn {
+        top: 70%;
+        left: 29%;
+        width: 41vw;
+        height: 10vw;
+        font-size: 14px;
+    }
+    .copy {
+        width: 94vw;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+@media screen and (max-width:380px){
+    .topBtn {
+        width: 26.5vw;
+        height: 8vw;
+        font-size: 11px;
+        margin-top: 1.3vw;
+        margin-left: 5vw;
+    }
+    
+    
+}
